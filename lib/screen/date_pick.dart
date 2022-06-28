@@ -1,10 +1,8 @@
 import 'package:facebook_clone/screen/email_page.dart';
 import 'package:facebook_clone/screen/login_page_lite.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
+
 
 class pick_date extends StatefulWidget {
   const pick_date({Key? key}) : super(key: key);
@@ -20,7 +18,6 @@ class _pick_dateState extends State<pick_date> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 255, 255, 255),
       appBar: AppBar(
           backgroundColor: Colors.white,
           elevation: 1.0,

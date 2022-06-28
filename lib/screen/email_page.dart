@@ -1,9 +1,6 @@
 import 'package:facebook_clone/screen/date_pick.dart';
-import 'package:facebook_clone/screen/login_page_lite.dart';
 import 'package:facebook_clone/screen/ph_number.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class ask_email extends StatelessWidget {
   const ask_email({Key? key}) : super(key: key);
